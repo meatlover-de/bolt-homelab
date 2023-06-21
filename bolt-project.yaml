@@ -1,6 +1,8 @@
 ---
 name: homelab
 format: human
+hiera-config: hiera.yaml
+save-rerun: false
 modules:
   - git: https://github.com/puppetlabs/puppetlabs-stdlib
     ref: v8.6.0
