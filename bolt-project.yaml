@@ -1,6 +1,6 @@
 ---
 name: homelab
-format: rainbow
+format: human
 modules:
   - git: https://github.com/puppetlabs/puppetlabs-stdlib
     ref: v8.6.0
